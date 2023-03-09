@@ -45,7 +45,7 @@ public final class MathLand {
         String trapHeightString = " ";
         String trapSideString = " ";
         String penSideString = " ";
-        final String quesAns = " ";
+        String quesAns = " ";
         String userNum1Sr = " ";
         String userNum2Sr = " ";
         String userNum3Sr = " ";
@@ -67,7 +67,7 @@ public final class MathLand {
         // Welcome the user and asks them what they would like to do.
         System.out.println("Hello! Welcome to Melody's MATH WONDERLAND!");
         System.out.print("Please enter 1 to find the area of");
-        System.ou.print(" a triangle, trapezoid or Pentagon ");
+        System.out.print(" a triangle, trapezoid or Pentagon ");
         System.out.print("and 2 to find the average: ");
         // Create a new scanner constant
         final Scanner scanner = new Scanner(System.in);
@@ -75,7 +75,7 @@ public final class MathLand {
         // Runs the program once.
         do {
             System.out.print("Please enter 1 to find the area of");
-            System.ou.print(" a triangle, trapezoid or Pentagon ");
+            System.out.print(" a triangle, trapezoid or Pentagon ");
             System.out.print("and 2 to find the average: ");
             // Get next line as a string
             userString = scanner.nextLine();
