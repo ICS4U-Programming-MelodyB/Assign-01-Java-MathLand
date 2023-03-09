@@ -243,7 +243,9 @@ public final class MathLand {
                     System.out.println("Thank you for playing!!");
                 // If any other letter or num is
                 // used ask them again to enter a valid number
-                } else {
+                } else if ("y".equals(quesAns)){
+                    System.out.println("Here we go again!");
+                }else {
                     System.out.println("Please input a valid string");
                 }
             // Do they while the return is not y or n
